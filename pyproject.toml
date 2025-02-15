@@ -1,0 +1,19 @@
+[project]
+name = "frontend"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "kazuma0606",email = "yoshimura.hisa@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "grpcio (>=1.70.0,<2.0.0)",
+    "grpcio-tools (>=1.70.0,<2.0.0)",
+    "streamlit (>=1.42.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
