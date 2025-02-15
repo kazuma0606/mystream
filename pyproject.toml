@@ -1,16 +1,14 @@
 [project]
-name = "frontend"
+name = "mystream"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "kazuma0606",email = "yoshimura.hisa@gmail.com"}
-]
+authors = [{ name = "kazuma0606", email = "yoshimura.hisa@gmail.com" }]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.9,<3.9.7 || >3.9.7,<3.14"
 dependencies = [
     "grpcio (>=1.70.0,<2.0.0)",
     "grpcio-tools (>=1.70.0,<2.0.0)",
-    "streamlit (>=1.42.0,<2.0.0)"
+    "streamlit (>=1.42.0,<2.0.0)",
 ]
 
 
